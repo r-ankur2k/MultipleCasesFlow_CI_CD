@@ -1,6 +1,6 @@
 import { test , expect } from "@playwright/test"
 
-test.only("Using UI Visible Selecters" , async ({page}) =>{
+test("Using UI Visible Selecters" , async ({page}) =>{
     await page.goto("https://github.com/login");
     await page.fill("input:below(:text('Username or'))" , "Test User");
     await page.fill("#password:above(:text('Sign in'))" , "Test Pass");
