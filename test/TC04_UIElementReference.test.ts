@@ -11,7 +11,7 @@ test("Using UI Visible Selecters" , async ({page}) =>{
 
 test("Another Example" , async ({page})=>{
     await page.goto("https://demoqa.com/automation-practice-form");
-    await page.waitForLoadState("networkidle");
+    await page.waitForLoadState("load");
     await page.check("label:left-of(:text('Male'))");
     await page.check("label:right-of(:text('Male'))");
     // await page.fill("input:below(:text('Gender')):down('Mobile')" , "9098765435");

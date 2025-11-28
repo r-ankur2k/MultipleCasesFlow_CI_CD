@@ -54,20 +54,20 @@
     "shard": null,
     "tags": [],
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.57.0",
     "workers": 6,
     "webServer": null
   },
   "suites": [
     {
-      "title": "test\\TC08_PlaywrightTestFixtures.test.ts",
-      "file": "test/TC08_PlaywrightTestFixtures.test.ts",
+      "title": "test\\TC04_UIElementReference.test.ts",
+      "file": "test/TC04_UIElementReference.test.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Fixture Test File",
+          "title": "Using UI Visible Selecters",
           "ok": true,
           "tags": [],
           "tests": [
@@ -79,31 +79,15 @@
               "projectName": "",
               "results": [
                 {
-                  "workerIndex": 36,
+                  "workerIndex": 0,
                   "parallelIndex": 0,
                   "status": "passed",
-                  "duration": 1445,
+                  "duration": 8980,
                   "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Name : ANKUR\n"
-                    },
-                    {
-                      "text": "Number : 1234567890\n"
-                    },
-                    {
-                      "text": "Address : DELHI\n"
-                    },
-                    {
-                      "text": "Google\n"
-                    },
-                    {
-                      "text": "passed\n"
-                    }
-                  ],
+                  "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-11-27T18:53:44.643Z",
+                  "startTime": "2025-11-28T07:48:00.371Z",
                   "annotations": [],
                   "attachments": []
                 }
@@ -111,9 +95,43 @@
               "status": "expected"
             }
           ],
-          "id": "6966f38db0181ad3c92f-be1a7ca90996791357a0",
-          "file": "test/TC08_PlaywrightTestFixtures.test.ts",
+          "id": "9731ec92a4ce44816100-74cd562b14cf259675fc",
+          "file": "test/TC04_UIElementReference.test.ts",
           "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Another Example",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 27927,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-11-28T07:48:09.886Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9731ec92a4ce44816100-9fbe76cbdac71d4af912",
+          "file": "test/TC04_UIElementReference.test.ts",
+          "line": 12,
           "column": 5
         }
       ]
@@ -121,9 +139,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-11-27T18:53:43.416Z",
-    "duration": 2812.984999999404,
-    "expected": 1,
+    "startTime": "2025-11-28T07:47:59.726Z",
+    "duration": 38162.064,
+    "expected": 2,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
